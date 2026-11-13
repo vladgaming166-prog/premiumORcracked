@@ -1,0 +1,21 @@
+name: PremiumOrCracked
+version: ${version}
+main: com.premiumorcracked.paper.PremiumOrCrackedPaperPlugin
+api-version: "1.21"
+authors: [Vlad Gaming]
+description: Configurable premium/cracked authentication prefixes synchronized from Velocity
+softdepend: [PlaceholderAPI, LuckPerms]
+load: POSTWORLD
+commands:
+  poc:
+    description: PremiumOrCracked administration
+    usage: /poc reload
+    aliases: [premiumorcracked]
+    permission: premiumorcracked.command
+permissions:
+  premiumorcracked.command:
+    description: Use /poc
+    default: op
+  premiumorcracked.reload:
+    description: Reload config.yml and live prefixes
+    default: op
