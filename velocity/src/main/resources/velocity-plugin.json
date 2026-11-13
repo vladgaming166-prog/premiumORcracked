@@ -1,0 +1,8 @@
+{
+  "id": "premiumorcracked",
+  "name": "PremiumOrCracked",
+  "version": "${version}",
+  "description": "Configurable premium/cracked authentication prefixes with Velocity-to-Paper sync",
+  "authors": ["Vlad Gaming"],
+  "main": "com.premiumorcracked.velocity.PremiumOrCrackedVelocityPlugin"
+}

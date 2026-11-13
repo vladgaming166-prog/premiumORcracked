@@ -1,0 +1,38 @@
+# PremiumOrCracked - fully customizable authentication prefixes
+# Edit this file and run /poc reload. No rebuild is required.
+#
+# Supported formatting in prefix values:
+#   - Legacy color codes: &a &c &7 &l &o &n &m &k &r
+#   - Hex colors: #00FF00 or &#00FF00
+#   - MiniMessage: <gray>[<green>PREMIUM</green>]</gray>
+#   - Unicode / custom symbols
+#   - Empty value to hide the indicator for that type
+#
+# These prefixes are independent of LuckPerms ranks and never overwrite
+# rank prefixes, suffixes or chat formats.
+
+prefixes:
+  premium:
+    enabled: true
+    value: "&7[&aP&7] "
+  cracked:
+    enabled: true
+    value: "&7[&fC&7] "
+  unknown:
+    enabled: true
+    value: "&7[&8?&7] "
+
+display:
+  tablist: true
+  chat: false
+  nametag: false
+  scoreboard: false
+
+formatting:
+  color-support: true
+  legacy-colors: true
+  minimessage: true
+
+settings:
+  update-prefix-without-restart: true
+  cache-prefixes: true
